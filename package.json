@@ -1,0 +1,36 @@
+{
+  "name": "whatsapp-bot-boilerplate",
+  "version": "1.0.0",
+  "description": "a whatsapp bot boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "watch": "nodemon index.js --ignore session.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "_moduleAliases": {
+    "$root": "./",
+    "$src": "./src",
+    "$database": "./src/database",
+    "$commands": "./src/commands"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jalallinux/whatsapp-bot-boilerplate.git"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot"
+  ],
+  "author": "JalalLinuX",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jalallinux/whatsapp-bot-boilerplate/issues"
+  },
+  "homepage": "https://github.com/jalallinux/whatsapp-bot-boilerplate#readme",
+  "dependencies": {
+    "better-module-alias": "^1.1.0",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.11.0"
+  }
+}

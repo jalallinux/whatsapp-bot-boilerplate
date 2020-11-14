@@ -1,0 +1,4 @@
+{
+    "botPrefix": "SELECT YOUR BOT PREFIX HERE",
+    "mongoPath": "ENTER YOUR MONGODB CONNECTION"
+}

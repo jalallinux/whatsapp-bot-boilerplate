@@ -5,7 +5,7 @@ const loadCommands = require("$commands/init/load");
 const { Client, Location } = require("whatsapp-web.js");
 
 // don't change SESSION_FILE_PATH to better-module-alias
-const SESSION_FILE_PATH = "./session.json";
+const SESSION_FILE_PATH = "./whatsapp-session.json";
 let sessionCfg;
 if (fs.existsSync(SESSION_FILE_PATH)) {
   sessionCfg = require(SESSION_FILE_PATH);

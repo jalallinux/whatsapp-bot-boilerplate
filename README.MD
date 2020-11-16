@@ -25,8 +25,10 @@ npm install
 
 ```json
 {
-  "botPrefix": "SELECT YOUR BOT PREFIX HERE",
-  "mongoPath": "ENTER YOUR MONGODB CONNECTION"
+    "botPrefix": "SELECT YOUR BOT PREFIX HERE",
+    "botNumber": "ENTER YOUR BOT NUMBER",
+    "botHttpPort": "ENTER YOUR CUSTOM BOT HTTP PORT",
+    "mongoPath": "ENTER YOUR MONGODB CONNECTION"
 }
 ```
 

@@ -44,7 +44,7 @@ npm install -g nodemon
 npm install -g chromium
 ```
 
-5. Optional : For use chromium change in inedx.js
+5. Optional : For use chromium change in [inedx.js](https://github.com/jalallinux/whatsapp-bot-boilerplate/blob/master/index.js)
 ```js
 const client = new Client({
   // to run chromium set headless = false
